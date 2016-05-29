@@ -1,0 +1,38 @@
+
+.Searchbar
+  width: 100%
+  position: fixed
+  top: 50px
+  left: 0
+  border: 1px solid $grey
+  border-top: 0
+  background: white
+  -webkit-transform: translateY(-100%)
+  -moz-transform: translateY(-100%)
+  -ms-transform: translateY(-100%)
+  -o-transform: translateY(-100%)
+  transform: translateY(-100%)
+
+  &.is-active
+    -webkit-transform: translateY(0%)
+    -moz-transform: translateY(0%)
+    -ms-transform: translateY(0%)
+    -o-transform: translateY(0%)
+    transform: translateY(0%)
+
+  input
+    padding: 5px 15px
+    width: 80%
+    background: none
+    border: 0
+
+  button
+    background: none
+    width: 18%
+    font-size: 1.5em
+    padding: 0
+    color: $black
+
+    &:active, &:focus, &:hover
+      color: $blue
+      box-shadow: none

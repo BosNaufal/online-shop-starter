@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Shop</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./src/ionicons/css/ionicons.min.css" />
+</head>
+<body>
+
+  <nav class="Navigation">
+    <div class="container--mini">
+      <div class="row no-margin">
+        <div class="col-xs-3 pl-0">
+          <a class="Navigation-menu text-left" href="#">
+            <i class="ion-navicon"></i>
+          </a>
+        </div>
+        <div class="col-xs-6 pl-0 pr-0">
+          <a href="#/" class="Navigation-logo">
+            <img src="./src/img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-3 pr-0 pull-right text-right">
+          <a class="Navigation-menu" href="#">
+            <i class="ion-ios-search-strong"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="Searchbar">
+    <div class="container--mini">
+      <input type="text" placeholder="Type To Search" />
+      <button class="btn">
+        <i class="ion-arrow-right-c"></i>
+      </button>
+    </div>
+  </div>
+
+  <aside class="Sidebar-container">
+    <div class="Sidebar-overlay"></div>
+    <div class="Sidebar">
+      <ul class="list-unstyled">
+        <li>
+          <a href="#">
+            <i class="ion-ios-pricetag"></i>
+            <span>Phone</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-ios-pricetag"></i>
+            <span>Accessories</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-ios-pricetag"></i>
+            <span>Pad</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-bag"></i>
+            <span>Cart</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-ios-compose-outline"></i>
+            <span>Upload Product</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+
+  <div class="MainWrapper">
+    <div class="container--mini">
+
+      <div class="Panel">
+
+        <h4 class="Page-header">Our Product</h4>
+
+        <button class="btn">Add New Product</button>
+
+        <div class="ProductList">
+
+          <div class="ProductList-item">
+            <div class="media">
+              <div class="media-body ProductList-info">
+                <a href="#" class="ProductList-name">Iphone 6 S</a>
+                <span class="ProductList-name_price_separator">-</span>
+                <span class="ProductList-price">Rp. 10,500,000</span>
+              </div>
+              <div class="media-right ProductList-action">
+                <button>
+                  <i class="ion-close"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="ProductList-item">
+            <div class="media">
+              <div class="media-body ProductList-info">
+                <a href="#" class="ProductList-name">Iphone 7 S</a>
+                <span class="ProductList-name_price_separator">-</span>
+                <span class="ProductList-price">Rp. 17,500,000</span>
+              </div>
+              <div class="media-right ProductList-action">
+                <button>
+                  <i class="ion-close"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="ProductList-item">
+            <div class="media">
+              <div class="media-body ProductList-info">
+                <a href="#" class="ProductList-name">Iphone 8 S</a>
+                <span class="ProductList-name_price_separator">-</span>
+                <span class="ProductList-price">Rp. 18,500,000</span>
+              </div>
+              <div class="media-right ProductList-action">
+                <button>
+                  <i class="ion-close"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="build.js"></script>
+</body>
+</html>

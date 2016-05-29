@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Shop</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./src/ionicons/css/ionicons.min.css" />
+</head>
+<body>
+
+  <nav class="Navigation">
+    <div class="container--mini">
+      <div class="row no-margin">
+        <div class="col-xs-3 pl-0">
+          <a class="Navigation-menu text-left" href="#">
+            <i class="ion-navicon"></i>
+          </a>
+        </div>
+        <div class="col-xs-6 pl-0 pr-0">
+          <a href="#/" class="Navigation-logo">
+            <img src="./src/img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-3 pr-0 pull-right text-right">
+          <a class="Navigation-menu" href="#">
+            <i class="ion-ios-search-strong"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="Searchbar">
+    <div class="container--mini">
+      <input type="text" placeholder="Type To Search" />
+      <button class="btn">
+        <i class="ion-arrow-right-c"></i>
+      </button>
+    </div>
+  </div>
+
+  <aside class="Sidebar-container">
+    <div class="Sidebar-overlay"></div>
+    <div class="Sidebar">
+      <ul class="list-unstyled">
+        <li>
+          <a href="#">
+            <i class="ion-ios-pricetag"></i>
+            <span>Phone</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-ios-pricetag"></i>
+            <span>Accessories</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-ios-pricetag"></i>
+            <span>Pad</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-bag"></i>
+            <span>Cart</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="ion-ios-compose-outline"></i>
+            <span>Upload Product</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+
+  <div class="MainWrapper">
+    <div class="container--mini">
+
+      <div class="Message">Some Message For Something</div>
+
+      <div class="Panel">
+
+        <h4 class="Page-header">New Product</h4>
+
+        <form class="Editor">
+          <div class="Editor-img_preview">
+            <img src="./src/img/mobile-2.jpg" alt="">
+          </div>
+          <input type="file" />
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Price" />
+          <input type="text" placeholder="Tags" />
+          <input type="number" placeholder="Stocks" />
+          <textarea placeholder="Product Description Here"></textarea>
+        </form>
+
+        <button class="btn btn--submit" type="submit">Add New Product</button>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="build.js"></script>
+</body>
+</html>
