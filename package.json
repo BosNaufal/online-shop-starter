@@ -28,6 +28,7 @@
     "style-loader": "^0.13.1",
     "sass-loader": "^3.2.0",
     "node-sass": "",
+    "temaplate-html-loader": "",
     "vue-hot-reload-api": "^1.2.2",
     "vue-html-loader": "^1.0.0",
     "vue-style-loader": "^1.0.0",
