@@ -1,5 +1,6 @@
 
 .Sidebar
+  @extend .u-transition
   position: fixed
   top: 0
   left: 0
@@ -39,6 +40,7 @@
           margin-right: 15px
 
   &-overlay.is-active
+    z-index: 100
     position: fixed
     top: 0
     left: 0

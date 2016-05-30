@@ -6,7 +6,9 @@ Super Simple Online Shop Starter. The RAW UI from [Vue Mini Shop](https://github
 ## Run It!
 ```bash
 npm install
+# Make sure there's no Error, then
 npm run dev
+# Open http://localhost:8080/
 ```
 ## Thank You for Making this useful~
 

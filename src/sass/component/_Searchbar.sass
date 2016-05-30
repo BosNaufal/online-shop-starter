@@ -1,5 +1,7 @@
 
 .Searchbar
+  @extend .u-transition
+  z-index: 1
   width: 100%
   position: fixed
   top: 50px
@@ -21,16 +23,20 @@
     transform: translateY(0%)
 
   input
-    padding: 5px 15px
+    position: relative
+    padding: 7px 15px
     width: 80%
     background: none
     border: 0
 
-  button
+  &-button
+    border: 0
     background: none
     width: 18%
     font-size: 1.5em
     padding: 0
+    padding-right: 5px
+    text-align: right
     color: $black
 
     &:active, &:focus, &:hover
